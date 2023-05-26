@@ -5,7 +5,7 @@
 <main>
   <header>
   <nav>
-    <img src="assets/logo getfiteasy.png" height="123" width="260"/>
+    <img src="assets/logo getfiteasy.png" height="123" width="260"  alt="logo"/>
     <ul>
       <li>Quiénes Somos</li>
       <li>Qué Hacemos</li>
@@ -18,5 +18,8 @@
 </main>
 
 <style>
-
+  li{
+    background: aqua;
+  }
 </style>
+
