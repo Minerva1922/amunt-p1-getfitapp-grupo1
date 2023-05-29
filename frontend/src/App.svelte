@@ -35,8 +35,24 @@
             </div>
         </section>
         <hr><br>
-    </footer>
+        <section class="footer-column">
+            <div class="ayuda">
+                <h3>Ayuda</h3>
+                    <ul>
+                        <li>Términos y Condiciones</li>
+                        <li>Políticas de Privacidad</li>
+                        <li>Preguntas Frecuentes</li>
+                    </ul>
+            </div>
+            <div class="contacto">
+                <h3>Contacto</h3>ç
+                <p>getfiteasy@gmail.com</p>
+            </div>
+            <div class="redes">
 
+            </div>
+        </section>
+    </footer>
 </main>
 
 <style>
