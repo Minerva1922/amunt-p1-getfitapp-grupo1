@@ -5,7 +5,6 @@
 <main>
     <header>
         <img src="\src\assets\logo getfiteasy.png" height="60" width="130" alt="logo"/>
-
         <nav>
             <ul>
                 <li><a href="/quienes-somos">Quiénes Somos</a></li>
@@ -27,10 +26,10 @@
         <section class="footer-registrate">
             <div class="left-section">
                 <h3>Mantente al día</h3>
-                <p>Regístrate para enterarte de las clases nuevas, los servicios adicionales y más antes que nadie. Respetamos tu privacidad y nunca compartiremos información con proveedores externos.</p>
+                <p>Regístrate para enterarte de las clases nuevas y los servicios adicionales antes que nadie. Respetamos tu privacidad y nunca compartiremos información con proveedores externos.</p>
             </div>
-            <div class="riht-section">
-                <input type="text" placeholder="Correo electrónico" />
+            <div class="right-section">
+                <input type="text" placeholder="Correo Electrónico" />
                 <button onclick="window.location.href=`/registrate`">Registrarse</button>
             </div>
         </section>
@@ -45,11 +44,10 @@
                     </ul>
             </div>
             <div class="contacto">
-                <h3>Contacto</h3>ç
+                <h3>Contacto</h3>
                 <p>getfiteasy@gmail.com</p>
             </div>
             <div class="redes">
-
             </div>
         </section>
     </footer>
@@ -66,7 +64,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 5px;
+        padding: 30px;
     }
 
     img {
@@ -106,6 +104,11 @@
 
     .submenu li {
         margin-bottom: 5px;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
     }
 </style>
 
