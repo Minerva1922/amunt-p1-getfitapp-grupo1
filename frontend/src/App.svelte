@@ -22,6 +22,21 @@
             </ul>
         </nav>
     </header>
+
+    <footer>
+        <section class="footer-registrate">
+            <div class="left-section">
+                <h3>Mantente al día</h3>
+                <p>Regístrate para enterarte de las clases nuevas, los servicios adicionales y más antes que nadie. Respetamos tu privacidad y nunca compartiremos información con proveedores externos.</p>
+            </div>
+            <div class="riht-section">
+                <input type="text" placeholder="Correo electrónico" />
+                <button onclick="window.location.href=`/registrate`">Registrarse</button>
+            </div>
+        </section>
+        <hr><br>
+    </footer>
+
 </main>
 
 <style>
