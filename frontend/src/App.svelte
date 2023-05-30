@@ -13,14 +13,17 @@
         <Router>
           <nav>
               <ul>
-                  <li><Link to ="/quienes-somos"><span style="color: black;">Quiénes Somos</span></Link></li>
-                  <li><Link to ="/que-hacemos"><span style="color: black;">Qué Hacemos</span></Link></li>
-                  <li class="submenu-padre"><Link to ="/servicios"><span style="color: black;">Servicios</span></Link>
+
+                  <li><Link style="text-decoration: none;" to ="/quienes-somos"><span style="color: black;">Quiénes Somos</span></Link></li>
+                  <li><Link style="text-decoration: none;"to ="/que-hacemos"><span style="color: black;">Qué Hacemos</span></Link></li>
+                  <li class="submenu-padre"><Link style="text-decoration: none;"to ="/servicios"><span style="color: black;">Servicios</span></Link>
                       <ul class="submenu">
-                          <li><Link to ="/ofertas"><span style="color: black;">Ofertas</span></Link></li>
+                          <li><Link style="text-decoration: none;"to ="/ofertas"><span style="color: black;">Ofertas</span></Link></li>
                       </ul>
                   </li>
-                  <li><Link to ="/registar"><span style="color: black;">Registrar</span></Link></li>
+                  <li><Link style="text-decoration: none;" to ="/registar"><span style="color: black;">Registrar</span></Link></li>
+
+
               </ul>
 
                 <Route path="/quienes-somos" component={QuienesSomos} />
@@ -86,6 +89,7 @@
         align-items: center;
         justify-content: space-between;
         padding: 30px;
+
     }
 
     img {
@@ -97,7 +101,9 @@
         list-style: none;
         font-size: 15px;
 
+
     }
+
 
     nav ul li {
         margin-left: 20px;
@@ -170,6 +176,7 @@
        width: 200px;
        height: 50px;
    }
+
 </style>
 
 
