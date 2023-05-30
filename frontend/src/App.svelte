@@ -1,10 +1,25 @@
 <script>
-
+    import { Router, Link, Route } from 'svelte-routing';
+    import QuienesSomos from "./components/QuienesSomos.svelte";
+    import QueHacemos from "./components/QueHacemos.svelte";
+    import Servicios from "./components/Servicios.svelte";
+    import Ofertas from "./components/Ofertas.svelte";
+    import Registrate from "./components/Registrate.svelte";
 </script>
 
 <main>
     <header>
+      <nav>
+        <Router>
+            <Route path="/" component={QuienesSomos} />
+            <Route path="/quienes-somos" component={QuienesSomos} />
+            <Route path="/que-hacemos" component={QueHacemos} />
+            <Route path="/servicios" component={Servicios} />
+            <Route path="/ofertas" component={Ofertas} />
+        </Router>
+      </nav>
         <img src="\src\assets\logo getfiteasy.png" height="60" width="130" alt="logo"/>
+
         <nav>
             <ul>
                 <li><a href="/quienes-somos">Quiénes Somos</a></li>
@@ -18,7 +33,20 @@
                 <li><a href="/registrate">Registrar</a></li>
             </ul>
         </nav>
+
     </header>
+
+    <!--
+      <nav>
+          <Link to ="/">Quienes Somos </Link>
+          <Link to ="/">Que Hacemos </Link>
+          <Link to ="/">Servicios </Link>
+          <Link to ="/">Ofertas </Link>
+          <Link to ="/">Registrate </Link>
+      </nav>
+    -->
+
+
 
     <footer>
         <section class="footer-registrate">
