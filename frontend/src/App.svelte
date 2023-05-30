@@ -13,17 +13,17 @@
         <Router>
           <nav>
               <ul>
-                  <li><Link to ="/quienes-somos">Quiénes Somos</Link></li>
-                  <li><Link to ="/que-hacemos">Qué Hacemos</Link></li>
-                  <li class="submenu-padre"><Link to ="/servicios">Servicios</Link>
+                  <li><Link to ="/quienes-somos"><span style="color: black;">Quiénes Somos</span></Link></li>
+                  <li><Link to ="/que-hacemos"><span style="color: black;">Qué Hacemos</span></Link></li>
+                  <li class="submenu-padre"><Link to ="/servicios"><span style="color: black;">Servicios</span></Link>
                       <ul class="submenu">
-                          <li><Link to ="/ofertas">Ofertas</Link></li>
+                          <li><Link to ="/ofertas"><span style="color: black;">Ofertas</span></Link></li>
                       </ul>
                   </li>
-                  <li><Link to ="/registar">Registrar</Link></li>
+                  <li><Link to ="/registar"><span style="color: black;">Registrar</span></Link></li>
               </ul>
 
-                <Route path="/" component={QuienesSomos} />
+                <Route path="/quienes-somos" component={QuienesSomos} />
                 <Route path="/que-hacemos" component={QueHacemos} />
                 <Route path="/servicios" component={Servicios} />
                 <Route path="/registrate" component={Registrate} />
@@ -96,20 +96,23 @@
         display: flex;
         list-style: none;
         font-size: 15px;
+
     }
 
     nav ul li {
         margin-left: 20px;
+
     }
 
     nav ul li:first-child {
         margin-left: 0;
+
     }
 
-    nav ul li a {
+  /*  nav ul li a {
         text-decoration: none;
         color: black;
-    }
+    }*/
 
     .submenu {
         display: none;
