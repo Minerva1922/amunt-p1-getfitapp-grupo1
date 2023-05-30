@@ -3,50 +3,33 @@
     import QuienesSomos from "./components/QuienesSomos.svelte";
     import QueHacemos from "./components/QueHacemos.svelte";
     import Servicios from "./components/Servicios.svelte";
-    import Ofertas from "./components/Ofertas.svelte";
     import Registrate from "./components/Registrate.svelte";
+    import Ofertas from "./components/Ofertas.svelte";
 </script>
 
 <main>
     <header>
-      <nav>
-        <Router>
-            <Route path="/" component={QuienesSomos} />
-            <Route path="/quienes-somos" component={QuienesSomos} />
-            <Route path="/que-hacemos" component={QueHacemos} />
-            <Route path="/servicios" component={Servicios} />
-            <Route path="/ofertas" component={Ofertas} />
-        </Router>
-      </nav>
         <img src="\src\assets\logo getfiteasy.png" height="60" width="130" alt="logo"/>
+        <Router>
+          <nav>
+              <ul>
+                  <li><Link to ="/quienes-somos">Quiénes Somos</Link></li>
+                  <li><Link to ="/que-hacemos">Qué Hacemos</Link></li>
+                  <li class="submenu-padre"><Link to ="/servicios">Servicios</Link></li>
+                      <ul class="submenu">
+                          <li><Link to ="/ofertas">Ofertas</Link></li>
+                      </ul>
+                  <li><Link to ="/registar">Registrar</Link></li>
+              </ul>
 
-        <nav>
-            <ul>
-                <li><a href="/quienes-somos">Quiénes Somos</a></li>
-                <li><a href="/que-hacemos">Qué Hacemos</a></li>
-                <li class="submenu-padre">
-                    <a href="/servicios">Servicios</a>
-                    <ul class="submenu">
-                        <li><a href="/servicios">Servicios</a></li>
-                        <li><a href="/ofertas">Ofertas</a></li>
-                    </ul>
-                <li><a href="/registrate">Registrar</a></li>
-            </ul>
-        </nav>
-
+                <Route path="/" component={QuienesSomos} />
+                <Route path="/que-hacemos" component={QueHacemos} />
+                <Route path="/servicios" component={Servicios} />
+                <Route path="/registrate" component={Registrate} />
+                <Route path="/ofertas" component={Ofertas} />
+          </nav>
+        </Router>
     </header>
-
-    <!--
-      <nav>
-          <Link to ="/">Quienes Somos </Link>
-          <Link to ="/">Que Hacemos </Link>
-          <Link to ="/">Servicios </Link>
-          <Link to ="/">Ofertas </Link>
-          <Link to ="/">Registrate </Link>
-      </nav>
-    -->
-
-
 
     <footer>
         <section class="footer-registrate">
@@ -173,7 +156,6 @@
         margin-left: 70%;
         margin-bottom: 40px;
     }
-
 
    button{
        width: 150px;
