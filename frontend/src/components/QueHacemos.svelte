@@ -1,7 +1,7 @@
-<h1>Hola de nuevo</h1>
+<script>
+import Calendario from "./Calendario.svelte";
+</script>
 
-<style>
-    h1{
-        color:brown;
-    }
-</style>
+<Calendario dia="Lunes"/>
+<Calendario dia="martes"/>
+
