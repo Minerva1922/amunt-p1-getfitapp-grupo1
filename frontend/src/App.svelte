@@ -4,50 +4,33 @@
     import QueHacemos from "./pages/QueHacemos.svelte";
     import Servicios from "./pages/Servicios.svelte";
     import Registrate from "./pages/Registrate.svelte";
-    import Ofertas from "./components/Ofertas.svelte";
+    import logo from "./assets/esqueleto/logo getfiteasy.png"
 </script>
 
 <main>
     <Router>
-
         <header>
-            <img src="\src\assets\logo getfiteasy.png" height="60" width="130" alt="logo"/>
+            <img src={logo} height="60" width="=130"/>
             <nav>
                 <ul>
                     <li>
-                        <Link style="text-decoration: none;" to="/quienes-somos"><span
-                                style="color: black;">Quiénes Somos</span>
-                        </Link>
+                        <Link style="text-decoration: none;" to="/quienes-somos"><span style="color: black;">Quiénes Somos</span></Link>
                     </li>
                     <li>
-                        <Link style="text-decoration: none;" to="/que-hacemos"><span
-                                style="color: black;">Qué Hacemos</span></Link>
+                        <Link style="text-decoration: none;" to="/que-hacemos"><span style="color: black;">Qué Hacemos</span></Link>
                     </li>
-                    <li class="submenu-padre">
-                        <Link style="text-decoration: none;" to="/servicios"><span
-                                style="color: black;">Servicios</span></Link>
-                        <ul class="submenu">
-                            <li>
-                                <Link style="text-decoration: none;" to="/ofertas"><span
-                                        style="color: black;">Ofertas</span></Link>
-                            </li>
-                        </ul>
-                    </li>
+                    <li class="submenu-padre"> <Link style="text-decoration: none;" to="/servicios"><span style="color: black;">Servicios</span></Link></li>
                     <li>
-                        <Link style="text-decoration: none;" to="/registar"><span style="color: black;">Registrar</span>
-                        </Link>
+                        <Link style="text-decoration: none;" to="/registar"><span style="color: black;">Registrar</span></Link>
                     </li>
                 </ul>
             </nav>
-
-
         </header>
 
         <Route path="/quienes-somos" component={QuienesSomos}/>
         <Route path="/que-hacemos" component={QueHacemos}/>
         <Route path="/servicios" component={Servicios}/>
         <Route path="/registrate" component={Registrate}/>
-        <Route path="/ofertas" component={Ofertas}/>
 
         <footer>
             <section class="footer-registrate">
@@ -97,7 +80,6 @@
             </section>
         </footer>
     </Router>
-
 </main>
 
 <style>
@@ -112,7 +94,6 @@
         align-items: center;
         justify-content: space-between;
         padding: 30px;
-
     }
 
     img {
@@ -123,32 +104,14 @@
         display: flex;
         list-style: none;
         font-size: 15px;
-
-
     }
-
 
     nav ul li {
         margin-left: 20px;
-
     }
 
     nav ul li:first-child {
         margin-left: 0;
-
-    }
-
-    /*  nav ul li a {
-          text-decoration: none;
-          color: black;
-      }*/
-
-    .submenu {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        padding: 10px;
-        min-width: 150px;
     }
 
     .submenu-padre:hover .submenu {
@@ -160,7 +123,6 @@
     }
 
     footer {
-        position: fixed;
         bottom: 0;
         padding: 20px;
         width: 100%;
@@ -201,7 +163,6 @@
         width: 200px;
         height: 50px;
     }
-
 </style>
 
 
