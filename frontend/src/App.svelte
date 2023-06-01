@@ -1,9 +1,9 @@
 <script>
     import { Router, Link, Route } from 'svelte-routing';
-    import QuienesSomos from "./components/QuienesSomos.svelte";
-    import QueHacemos from "./components/QueHacemos.svelte";
-    import Servicios from "./components/Servicios.svelte";
-    import Registrate from "./components/Registrate.svelte";
+    import QuienesSomos from "./pages/QuienesSomos.svelte";
+    import QueHacemos from "./pages/QueHacemos.svelte";
+    import Servicios from "./pages/Servicios.svelte";
+    import Registrate from "./pages/Registrate.svelte";
     import Ofertas from "./components/Ofertas.svelte";
 </script>
 
