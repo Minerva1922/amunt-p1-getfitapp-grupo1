@@ -103,7 +103,8 @@
     nav ul {
         display: flex;
         list-style: none;
-        font-size: 15px;
+        font-size: 20px;
+        text-space: 10px;
     }
 
     nav ul li {
@@ -135,6 +136,7 @@
         display: flex;
         justify-content: space-between;
         margin-bottom: 20px;
+        color: #254e5f;
     }
 
     .footer-column-cajon {
