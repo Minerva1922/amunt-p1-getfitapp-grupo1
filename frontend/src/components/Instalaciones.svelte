@@ -75,14 +75,6 @@
         color: #254e5f;
     }
 
-    /*button {
-        font-size: 20px;
-        padding: 8px 38px;
-        border-radius: 20px;
-        margin-bottom: 50px;
-        background-color: #AFDAA5;
-    }*/
-
     button {
         margin-top: 20px;
         margin-bottom: 40px;
