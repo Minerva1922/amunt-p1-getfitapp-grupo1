@@ -1,5 +1,4 @@
 <script>
- import Clases from "./Clases.svelte";
  export let dia;
 </script>
 
@@ -10,15 +9,23 @@
 
 
 <style>
+    div {
+        margin-left: 90px;
+    }
+    h1 {
+        text-align: center;
+        color: #254e5f;
+    }
     button {
         margin-top: 50px;
         width: 200px;
         height: 60px;
         border-radius: 30px;
         background-color: white;
+        font-size: 15px;
     }
     button:hover{
-        background-color: black;
+        background-color: #02b2ec;
         color: white;
     }
 </style>

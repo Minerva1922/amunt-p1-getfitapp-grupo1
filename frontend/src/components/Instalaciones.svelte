@@ -75,12 +75,26 @@
         color: #254e5f;
     }
 
-    button {
+    /*button {
         font-size: 20px;
         padding: 8px 38px;
         border-radius: 20px;
         margin-bottom: 50px;
         background-color: #AFDAA5;
+    }*/
+
+    button {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        width: 200px;
+        height: 60px;
+        border-radius: 30px;
+        background-color: white;
+        font-size: 15px;
+    }
+    button:hover{
+        background-color: #02b2ec;
+        color: white;
     }
 
     footer {
