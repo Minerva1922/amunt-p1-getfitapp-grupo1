@@ -26,7 +26,7 @@
                 </ul>
             </nav>
         </header>
-
+        <Route path="/" component={QuienesSomos}/>
         <Route path="/quienes-somos" component={QuienesSomos}/>
         <Route path="/que-hacemos" component={QueHacemos}/>
         <Route path="/servicios" component={Servicios}/>
