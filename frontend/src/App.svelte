@@ -138,11 +138,6 @@
 
     }
 
-    /*  nav ul li a {
-          text-decoration: none;
-          color: black;
-      }*/
-
     .submenu {
         display: none;
         position: absolute;
@@ -160,7 +155,6 @@
     }
 
     footer {
-        position: fixed;
         bottom: 0;
         padding: 20px;
         width: 100%;
