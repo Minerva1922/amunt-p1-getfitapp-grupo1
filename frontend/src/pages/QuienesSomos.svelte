@@ -36,6 +36,7 @@ import VideoGetFitEasy from "../assets/video/VideoGetFitEasy.mp4"
         justify-content: space-between;
         padding: 30px;
         margin-bottom: 40px;
+        color: #254e5f;
     }
     button {
         margin-top: 50px;
@@ -51,7 +52,8 @@ import VideoGetFitEasy from "../assets/video/VideoGetFitEasy.mp4"
     }
     p{
         font-size: 17px;
-       flex:1;
+        flex:1;
         margin-left: 250px;
+        color: #254e5f;
     }
 </style>
