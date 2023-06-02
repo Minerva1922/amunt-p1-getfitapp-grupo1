@@ -10,7 +10,7 @@
 <main>
     <Router>
         <header>
-            <img src={logo} height="60" width="=130"/>
+            <img src={logo} height="60" width="=130" alt="logo"/>
             <nav>
                 <ul>
                     <li>
@@ -113,9 +113,10 @@
 
     nav ul li:first-child {
         margin-left: 0;
+
     }
 
-    .submenu-padre:hover .submenu {
+    .submenu-padre:hover {
         display: block;
     }
 
