@@ -5,9 +5,7 @@ import VideoGetFitEasy from "../assets/video/VideoGetFitEasy.mp4"
 </script>
 <main>
 
-    <video controls src="../assets/video/VideoGetFitEasy.mp4">
-
-    </video>
+    <video controls src={VideoGetFitEasy}></video>
 
     <div class="información">
         <h2>ENTRENA EN EL HORARIO QUE MÁS TE CONVENGA.</h2>
