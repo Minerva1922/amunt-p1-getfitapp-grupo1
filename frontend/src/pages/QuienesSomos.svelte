@@ -57,7 +57,7 @@ import Direccion from "../components/Direccion.svelte";
         color: #254e5f;
     }
     article {
-        background: linear-gradient(to bottom, #c1ffc1, #87ceeb);
+        background: linear-gradient(to bottom, #c1ffc1, #02b2ec);
         display: flex;
         flex-direction: column;
         align-items: center;
