@@ -38,6 +38,7 @@ import Direccion from "../components/Direccion.svelte";
         justify-content: space-between;
         padding: 30px;
         margin-bottom: 40px;
+        color: #254e5f;
     }
     button {
         margin-top: 50px;
@@ -53,6 +54,7 @@ import Direccion from "../components/Direccion.svelte";
         font-size: 17px;
         flex:1;
         margin-left: 250px;
+        color: #254e5f;
     }
     article {
         background: linear-gradient(to bottom, #c1ffc1, #87ceeb);
