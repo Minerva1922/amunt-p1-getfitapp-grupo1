@@ -1,17 +1,24 @@
 <script>
+
+    import {navigate} from "svelte-routing";
+
     let nombreUsuario = "";
     let password = "";
+    function irABienvenida() {
+        navigate("/bienvenido")
+    }
 </script>
 
 <div>
     <h1>Login</h1>
-    <form>
+    <form on:submit|preventDefault={irABienvenida}>
         <label>Usuario</label>
         <input type="text" bind:value={nombreUsuario}/>
         <label>Contraseña</label>
         <input type="password" bind:value={password}/>
+        <button type="submit">Enviar</button>
     </form>
-    <button type="submit">Enviar</button>
+
 </div>
 
 <style>
@@ -42,8 +49,6 @@
         justify-content: center;
         padding: 20px;
         border-radius: 8px;
-        height: 150px;
-
     }
 
     label {

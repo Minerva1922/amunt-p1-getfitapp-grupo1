@@ -5,6 +5,7 @@
     import Servicios from "./pages/Servicios.svelte";
     import logo from "./assets/esqueleto/logo getfiteasy.png"
     import Registrar from "./pages/Registrar.svelte";
+    import Bienvenido from "./sub-components/Bienvenido.svelte";
 </script>
 
 <main>
@@ -31,6 +32,7 @@
         <Route path="/que-hacemos" component={QueHacemos}/>
         <Route path="/servicios" component={Servicios}/>
         <Route path="/registrar" component={Registrar}/>
+        <Route path="/bienvenido" component={Bienvenido}/>
 
         <footer>
             <section class="footer-registrate">
