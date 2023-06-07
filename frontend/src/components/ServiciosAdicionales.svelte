@@ -1,9 +1,7 @@
-<script>
-</script>
-
 <div>
     <h2>SERVICIOS ADICIONALES</h2>
-    <p>En GetFitEasy, siempre ampliamos nuestros servicios adicionales para satisfacer las necesidades de <br>nuestra comunidad. ¿Hay algo que te gustaría que añadiéramos a la lista? Envía una solicitud.</p>
+    <p>En GetFitEasy, siempre ampliamos nuestros servicios adicionales para satisfacer las necesidades de <br>nuestra
+        comunidad. ¿Hay algo que te gustaría que añadiéramos a la lista? Envía una solicitud.</p>
 </div>
 
 <ul>
@@ -27,25 +25,31 @@
         align-items: center;
         justify-content: center;
         height: 30vh;
+        color: #254e5f;
     }
 
     h2, p {
         text-align: center;
+        color: #254e5f;
     }
-    h2{
+
+    h2 {
         margin-top: -50px;
         margin-bottom: 15px;
         font-size: 1.6em;
+        color: #254e5f;
     }
-    p{
+
+    p {
         font-size: 17px;
         margin-bottom: 30px;
+        color: #254e5f;
     }
 
     ul {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-       gap: 10px;
+        gap: 10px;
         justify-items: center;
         align-items: center;
         text-align: center;
@@ -55,7 +59,6 @@
         list-style: none;
         margin-bottom: 30px;
         margin-top: -50px;
-
+        color: #254e5f;
     }
-
 </style>

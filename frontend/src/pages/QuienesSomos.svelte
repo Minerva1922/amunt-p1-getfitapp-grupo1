@@ -75,8 +75,4 @@ import Direccion from "../components/Direccion.svelte";
         margin: 10px 0 0;
         font-size: 18px;
     }
-
-
-
-
 </style>

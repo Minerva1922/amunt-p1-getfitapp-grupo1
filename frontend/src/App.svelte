@@ -124,7 +124,6 @@
 
     nav ul li:first-child {
         margin-left: 0;
-
     }
 
     .submenu-padre:hover {
@@ -174,6 +173,7 @@
         width: 150px;
         height: 50px;
         border-radius: 20px;
+        color: #254e5f;
     }
 
     input {

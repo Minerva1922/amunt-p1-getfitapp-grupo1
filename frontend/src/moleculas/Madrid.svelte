@@ -9,6 +9,7 @@
         "email": "jhoana@example.com"
     };
 </script>
+
 <section>
     <div>
         <h3>{subscribers.name} {subscribers.lastName}</h3>
