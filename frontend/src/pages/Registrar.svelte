@@ -1,16 +1,16 @@
 <script>
     let nombreUsuario = "";
-    let contraseña = "";
+    let password = "";
 </script>
 
 <div>
-<h1>Login</h1>
-<form>
-    <label>Usuario</label>
-       <input type="text" bind:value={nombreUsuario} />
-    <label>Contaseña</label>
-        <input type="contraseña" bind:value={contraseña} />
-</form>
+    <h1>Login</h1>
+    <form>
+        <label>Usuario</label>
+        <input type="text" bind:value={nombreUsuario}/>
+        <label>Contraseña</label>
+        <input type="password" bind:value={password}/>
+    </form>
     <button type="submit">Enviar</button>
 </div>
 
@@ -27,12 +27,14 @@
         background-repeat: no-repeat;
         flex-direction: column;
     }
+
     h1 {
         color: #254e5f;
         font-size: 54px;
         text-align: center;
         margin-bottom: 20px;
     }
+
     form {
         display: flex;
         flex-direction: column;
@@ -43,10 +45,12 @@
         height: 150px;
 
     }
+
     label {
         margin-bottom: 5px;
         margin-right: 330px;
     }
+
     input {
         width: 400px;
         padding: 8px;
@@ -63,11 +67,11 @@
         background-color: white;
         font-size: 15px;
     }
-    button:hover{
+
+    button:hover {
         background-color: #02b2ec;
         color: white;
     }
-
 
 
 </style>
