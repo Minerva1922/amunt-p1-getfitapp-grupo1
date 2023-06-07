@@ -1,8 +1,10 @@
 <script>
     import {navigate} from "svelte-routing";
+
     function irAMadrid() {
         navigate("/madrid")
     }
+
     function irABarcelona() {
         navigate("/barcelona")
     }
@@ -13,7 +15,7 @@
     <h1>Bienvenido Ali Siam</h1>
     <div>
         <button on:click|preventDefault={irABarcelona}>Barcelona</button>
-        <button  on:click|preventDefault={irAMadrid}>Madrid</button>
+        <button on:click|preventDefault={irAMadrid}>Madrid</button>
     </div>
 </section>
 
