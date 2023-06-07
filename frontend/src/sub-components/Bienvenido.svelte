@@ -1,8 +1,16 @@
+<script>
+    import {navigate} from "svelte-routing";
+    function irAMadrid() {
+        navigate("/madrid")
+    }
+</script>
+
+
 <section>
     <h1>Bienvenido Ali Siam</h1>
     <div>
         <button>Barcelona</button>
-        <button>Madrid</button>
+        <button  on:click|preventDefault={irAMadrid}>Madrid</button>
     </div>
 </section>
 

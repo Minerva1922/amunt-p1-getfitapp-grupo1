@@ -1,9 +1,7 @@
 <script>
-    import {navigate} from "svelte-routing";
+
     let info;
-    function irAMadrid() {
-        navigate("/madrid")
-    }
+
 </script>
 <div>
 
