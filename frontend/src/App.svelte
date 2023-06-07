@@ -16,14 +16,20 @@
             <nav>
                 <ul>
                     <li>
-                        <Link style="text-decoration: none;" to="/quienes-somos"><span style="color: #254e5f;">Quiénes Somos</span></Link>
+                        <Link style="text-decoration: none;" to="/quienes-somos"><span style="color: #254e5f;">Quiénes Somos</span>
+                        </Link>
                     </li>
                     <li>
-                        <Link style="text-decoration: none;" to="/que-hacemos"><span style="color: #254e5f;">Qué Hacemos</span></Link>
+                        <Link style="text-decoration: none;" to="/que-hacemos"><span
+                                style="color: #254e5f;">Qué Hacemos</span></Link>
                     </li>
-                    <li class="submenu-padre"> <Link style="text-decoration: none;" to="/servicios"><span style="color: #254e5f;">Servicios</span></Link></li>
+                    <li class="submenu-padre">
+                        <Link style="text-decoration: none;" to="/servicios"><span
+                                style="color: #254e5f;">Servicios</span></Link>
+                    </li>
                     <li>
-                        <Link style="text-decoration: none;" to="/registrar"><span style="color: #254e5f;">Registrar</span></Link>
+                        <Link style="text-decoration: none;" to="/registrar"><span
+                                style="color: #254e5f;">Registrar</span></Link>
                     </li>
                 </ul>
             </nav>
