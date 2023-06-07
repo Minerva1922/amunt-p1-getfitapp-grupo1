@@ -6,6 +6,7 @@
     import logo from "./assets/esqueleto/logo getfiteasy.png"
     import Registrar from "./pages/Registrar.svelte";
     import Bienvenido from "./sub-components/Bienvenido.svelte";
+    import Madrid from "./moleculas/Madrid.svelte";
 </script>
 
 <main>
@@ -33,6 +34,7 @@
         <Route path="/servicios" component={Servicios}/>
         <Route path="/registrar" component={Registrar}/>
         <Route path="/bienvenido" component={Bienvenido}/>
+        <Route path="/madrid" component={Madrid}/>
 
         <footer>
             <section class="footer-registrate">
