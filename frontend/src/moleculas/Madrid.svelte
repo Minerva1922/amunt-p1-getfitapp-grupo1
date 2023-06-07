@@ -1,27 +1,44 @@
 <script>
-    let info;
+    const subscribers = {
+        "id": 9128476,
+        "name": "Jhoana",
+        "lastName": "Vicente",
+        "address": "Gran Via 123, 1-2 98371",
+        "subscriptionDate": "2023/03/04",
+        "phone": "987654321",
+        "email": "jhoana@example.com"
+    };
 </script>
-<div>
+<section>
     <div>
-        <h3>{info.nombre}</h3>
-        <p>{info.direccion} ({info.suscripcion}) ({info.telefono})({info.email})</p>
+        <h3>{subscribers.name} {subscribers.lastName}</h3>
     </div>
-</div>
+    <div>
+        <p>{subscribers.address}</p>
+        <p>{subscribers.subscriptionDate}</p>
+        <p> {subscribers.phone}</p>
+        <p> {subscribers.email}</p>
+    </div>
+</section>
+<hr>
 
 <style>
-div {
-    margin-right: 190px;
-    margin-bottom: 28px;
-}
-h3 {
-    text-align: justify;
-    font-size: 35px;
-    font-weight: 900;
-    color: #254e5f;
-}
+    section{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
 
-p {
-    display: flex;
-    color: #254e5f;
-}
+    h3 {
+        text-align: justify;
+        font-size: 35px;
+        font-weight: 900;
+        color: #254e5f;
+    }
+
+    p {
+        display: flex;
+        color: #254e5f;
+        margin-bottom: 5px;
+    }
 </style>
