@@ -3,8 +3,8 @@
     import QuienesSomos from "./pages/QuienesSomos.svelte";
     import QueHacemos from "./pages/QueHacemos.svelte";
     import Servicios from "./pages/Servicios.svelte";
-    import Registrate from "./pages/Registrate.svelte";
     import logo from "./assets/esqueleto/logo getfiteasy.png"
+    import Registrar from "./pages/Registrar.svelte";
 </script>
 
 <main>
@@ -21,7 +21,7 @@
                     </li>
                     <li class="submenu-padre"> <Link style="text-decoration: none;" to="/servicios"><span style="color: #254e5f;">Servicios</span></Link></li>
                     <li>
-                        <Link style="text-decoration: none;" to="/registar"><span style="color: #254e5f;">Registrar</span></Link>
+                        <Link style="text-decoration: none;" to="/registrar"><span style="color: #254e5f;">Registrar</span></Link>
                     </li>
                 </ul>
             </nav>
@@ -30,7 +30,7 @@
         <Route path="/quienes-somos" component={QuienesSomos}/>
         <Route path="/que-hacemos" component={QueHacemos}/>
         <Route path="/servicios" component={Servicios}/>
-        <Route path="/registrate" component={Registrate}/>
+        <Route path="/registrar" component={Registrar}/>
 
         <footer>
             <section class="footer-registrate">
