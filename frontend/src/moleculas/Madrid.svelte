@@ -5,7 +5,7 @@
 </script>
 <div>
 
-    <div on:click|preventDefault={irAMadrid}>
+    <div on:submit|preventDefault={irAMadrid}>
         <h3>{info.nombre}</h3>
         <p>{info.direccion} ({info.suscripcion}) ({info.telefono})({info.email})</p>
     </div>
@@ -28,5 +28,4 @@ p {
     display: flex;
     color: #254e5f;
 }
-
 </style>
