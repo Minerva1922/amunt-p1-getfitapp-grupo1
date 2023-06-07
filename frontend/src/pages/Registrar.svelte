@@ -4,20 +4,33 @@
 
     let nombreUsuario = "";
     let password = "";
-    function irABienvenida() {
-        navigate("/bienvenido")
+    let mensajeError ="";
+
+
+    function handleSubmit(){
+        if(nombreUsuario==="Ali Siam" && password==="GetFitEasy2023"){
+            navigate("/bienvenido")
+        }else{
+            mensajeError="Datos incorrectos"
+        }
+
     }
 </script>
 
 <div>
     <h1>Login</h1>
-    <form on:submit|preventDefault={irABienvenida}>
+    <form on:submit|preventDefault={handleSubmit}>
         <label>Usuario</label>
         <input type="text" bind:value={nombreUsuario}/>
         <label>Contraseña</label>
         <input type="password" bind:value={password}/>
         <button type="submit">Enviar</button>
     </form>
+
+    {#if mensajeError}
+        <p>Datos incorrectos</p>
+    {/if}
+
 
 </div>
 
