@@ -2,10 +2,11 @@
 
     let info;
 
+
 </script>
 <div>
 
-    <div on:submit|preventDefault={irAMadrid}>
+    <div>
         <h3>{info.nombre}</h3>
         <p>{info.direccion} ({info.suscripcion}) ({info.telefono})({info.email})</p>
     </div>
