@@ -3,13 +3,16 @@
     function irAMadrid() {
         navigate("/madrid")
     }
+    function irABarcelona() {
+        navigate("/barcelona")
+    }
 </script>
 
 
 <section>
     <h1>Bienvenido Ali Siam</h1>
     <div>
-        <button>Barcelona</button>
+        <button on:click|preventDefault={irABarcelona}>Barcelona</button>
         <button  on:click|preventDefault={irAMadrid}>Madrid</button>
     </div>
 </section>

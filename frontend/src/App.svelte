@@ -7,6 +7,7 @@
     import Registrar from "./pages/Registrar.svelte";
     import Bienvenido from "./sub-components/Bienvenido.svelte";
     import Madrid from "./moleculas/Madrid.svelte";
+    import Barcelona from "./moleculas/Barcelona.svelte";
 </script>
 
 <main>
@@ -41,7 +42,7 @@
         <Route path="/registrar" component={Registrar}/>
         <Route path="/bienvenido" component={Bienvenido}/>
         <Route path="/madrid" component={Madrid}/>
-
+        <Route path="/barcelona" component={Barcelona}/>
         <footer>
             <section class="footer-registrate">
                 <div class="left-section">
