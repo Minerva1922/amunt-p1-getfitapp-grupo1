@@ -20,15 +20,15 @@
 </section>
 
 <style>
-    section {
-        max-width: 800px;
-        margin: 40px auto;
-    }
-
     h1 {
         color: #254e5f;
         text-align: center;
         font-size: 50px;
+    }
+
+    div {
+        display: flex;
+        justify-content: space-evenly;
     }
 
     button {
