@@ -7,7 +7,6 @@
 </section>
 
 <style>
-
     section {
         max-width: 800px;
         margin: 40px auto;
@@ -15,6 +14,8 @@
 
     h1 {
         color: #254e5f;
+        text-align: center;
+        font-size: 50px;
     }
 
     button {
@@ -24,6 +25,7 @@
         border-radius: 30px;
         background-color: white;
         font-size: 15px;
+        margin-inside: 40px;
     }
 
     button:hover {
