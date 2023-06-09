@@ -7,7 +7,6 @@
     <button>Reservar Clase</button>
 </div>
 
-
 <style>
     div {
         margin-left: 90px;

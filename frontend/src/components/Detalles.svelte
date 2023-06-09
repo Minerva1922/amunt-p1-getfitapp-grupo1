@@ -14,10 +14,8 @@ import imagenGimnasioModerno from "../assets/imagenes/detallesgimnasio.jpg"
         <img src={imagenMaquinasModernas}/>
         <img src={imagenPersonasGimnasio}/>
         <img src={imagenGimnasioModerno}/>
-
     </div>
 </section>
-
 
 <style>
     section {

@@ -16,6 +16,7 @@ export let sede;
         margin-right: 190px;
         margin-bottom: 28px;
     }
+
     h1 {
         text-align: justify;
         font-size: 35px;

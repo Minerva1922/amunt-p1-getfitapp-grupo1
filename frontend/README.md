@@ -15,9 +15,8 @@ clases en el cual hemos creado una página web para gestionar el seguimiento de 
 - de quiénes somos y registrar con Login.
 
 ## 🏋  Planificando el trabajo
-Hemos hecho una propuesta de diseño, creamos las historias de usuario y definimos las tareas. 
-
-
+Hemos hecho una propuesta de diseño, 
+creamos las historias de usuario y definimos las tareas. 
 
 
 

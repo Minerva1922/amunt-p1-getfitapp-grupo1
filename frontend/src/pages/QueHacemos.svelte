@@ -77,5 +77,4 @@
     .clases-diarias {
         margin-left: auto;
     }
-
 </style>

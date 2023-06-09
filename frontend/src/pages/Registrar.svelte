@@ -1,5 +1,4 @@
 <script>
-
     import {navigate} from "svelte-routing";
 
     let nombreUsuario = "";
@@ -13,7 +12,6 @@
         }else{
             mensajeError="Datos incorrectos"
         }
-
     }
 </script>
 
@@ -30,8 +28,6 @@
     {#if mensajeError}
         <p>Datos incorrectos</p>
     {/if}
-
-
 </div>
 
 <style>
@@ -95,6 +91,4 @@
         font-size: 32px;
         border-radius: 8px;
     }
-
-
 </style>

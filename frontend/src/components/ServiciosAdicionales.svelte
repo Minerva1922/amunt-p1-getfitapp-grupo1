@@ -15,7 +15,6 @@
     <li>.</li>
     <li>Entrenadores personales</li>
     <li>Vestidores</li>
-
 </ul>
 
 <style>
