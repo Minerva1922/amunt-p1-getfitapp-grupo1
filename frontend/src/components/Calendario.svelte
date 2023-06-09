@@ -3,7 +3,6 @@
 </script>
 
 <div>
-   <h1>hola maribel mari</h1>
     <h1>{dia}</h1>
     <button>Reservar Clase</button>
 </div>
