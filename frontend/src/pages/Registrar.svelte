@@ -90,6 +90,11 @@
         background-color: #02b2ec;
         color: white;
     }
+    p{
+        color:#02b2ec;
+        font-size: 32px;
+        border-radius: 8px;
+    }
 
 
 </style>
