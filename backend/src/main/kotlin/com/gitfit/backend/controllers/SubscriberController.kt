@@ -11,13 +11,13 @@ import org.springframework.web.bind.annotation.RestController
 @RestController
 class SubscriberController(private val subscriberRepository: SubscriberRepository)  {
 
-    @GetMapping("/subscribers")
+    @GetMapping("/barcelona")
     fun allSubscribers() : List<Subscriber>? {
         return subscriberRepository.findAll()
     }
 
-    @PostMapping("/subscribers")
-    fun addSubcriber(@RequestBody subscriber: Subscriber):  Subscriber? {
+    @PostMapping("/barcelona")
+    fun addSubscriber(@RequestBody subscriber: Subscriber):  Subscriber? {
         return subscriberRepository.save(subscriber)
     }
 }

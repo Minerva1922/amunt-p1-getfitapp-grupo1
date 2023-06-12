@@ -2,8 +2,9 @@ package com.gitfit.backend.domain
 
 import jakarta.persistence.*
 
-@Entity
+
 @Table(name = "subscribers")
+@Entity
 data class Subscriber(
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
