@@ -10,9 +10,9 @@ data class Subscriber(
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     var id: Long,
     var name: String,
-    val last_name: String,
+    val second: String,
     val address: String,
-    val subscription_date: String,
+    val data: String,
     val phone: Long,
     val email: String
 )
