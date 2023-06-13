@@ -9,4 +9,5 @@ VALUES (1, 'Minerva', 'Pedret', 'Plaza 14 Madrid', 'September', 618144754 , 'min
        (7, 'Luis', 'Rodríguez', 'Paseo del Prado 789 Madrid', 'Febrero', 222222222, 'luis@example.com'),
        (8, 'Laura', 'González', 'Calle Serrano 123 Madrid', 'Marzo', 333333333, 'laura@example.com'),
        (9, 'Irina', 'Rodríguez', 'Paseo del Cañon 789 Madrid', 'Febrero', 222222222, 'irina@example.com'),
-       (10, 'Maribel', 'González', 'Calle Api 123 Madrid', 'Marzo', 333333333, 'maribel@example.com');
+       (10, 'Maribel', 'González', 'Calle Api 123 Madrid', 'Marzo', 333333333, 'maribel@example.com'),
+       (11, 'Joaquín', 'De La Hoz', 'Calle 23 Barcelona', 'Junio', 673408687, 'joaquin@gmail.com');
