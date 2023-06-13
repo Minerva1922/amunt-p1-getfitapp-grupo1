@@ -1,22 +1,43 @@
 <script>
-    let subscribers = []
+    import { onMount } from "svelte";
+
+
+    let subscribers;
+
+    onMount(async () => {
+        try {
+            const response = await fetch("/subscribers/location/Barcelona");
+            if (response.ok) {
+                subscribers = await response.json();
+            } else {
+                console.error("Error al obtener los datos de Barcelona desde el backend");
+            }
+        } catch (error) {
+            console.error("Error al realizar la solicitud HTTP a Barcelona", error);
+        }
+    });
 </script>
 
 <section>
-    <div>
-        <h3>{subscribers.name} {subscribers.lastName}</h3>
-    </div>
-    <div>
-        <p>{subscribers.address}</p>
-        <p>{subscribers.subscriptionDate}</p>
-        <p> {subscribers.phone}</p>
-        <p> {subscribers.email}</p>
-    </div>
+    {#if subscribers}
+        <div>
+            <h3>{subscribers.name} {subscribers.second}</h3>
+        </div>
+        <div>
+            <p>{subscribers.address}</p>
+            <p>{subscribers.data}</p>
+            <p>{subscribers.phone}</p>
+            <p>{subscribers.email}</p>
+        </div>
+    {:else}
+        <p>Cargando datos...</p>
+    {/if}
 </section>
+
 <hr>
 
 <style>
-    section{
+    section {
         display: flex;
         justify-content: space-around;
         margin-top: 40px;
@@ -35,5 +56,4 @@
         margin-bottom: 5px;
     }
 </style>
-
 
