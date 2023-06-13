@@ -7,7 +7,8 @@
     import Registrar from "./pages/Registrar.svelte";
     import Bienvenido from "./sub-components/Bienvenido.svelte";
     import Madrid from "./moleculas/Madrid.svelte";
-    import Barcelona from "./moleculas/Barcelona.svelte";
+    import Barcelona from "./moleculas/Barcelona.svelte"
+
 </script>
 
 <main>

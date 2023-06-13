@@ -1,13 +1,5 @@
 <script>
-    const subscribers = {
-        "id": 9128476,
-        "name": "Irina",
-        "lastName": "Ichim",
-        "address": "Gran Via 123, 1-2 98371",
-        "subscriptionDate": "2023/03/04",
-        "phone": "987654321",
-        "email": "jhoana@example.com"
-    };
+    let subscribers = []
 </script>
 
 <section>

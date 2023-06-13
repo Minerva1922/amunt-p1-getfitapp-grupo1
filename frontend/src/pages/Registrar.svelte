@@ -1,10 +1,11 @@
 <script>
     import {navigate} from "svelte-routing";
 
+
     let nombreUsuario = "";
     let password = "";
     let mensajeError ="";
-
+    let subscribers = []
 
     function handleSubmit(){
         if(nombreUsuario==="Ali Siam" && password==="GetFitEasy2023"){
@@ -13,6 +14,27 @@
             mensajeError="Datos incorrectos"
         }
     }
+
+    import {onMount} from "svelte";
+
+
+    onMount(() => {
+        const location = 'Barcelona';
+        fetchSubscribersByLocation(location);
+    });
+    async function fetchSubscribersByLocation(location) {
+        try {
+            const respuesta = await fetch(`/subscribers/location/${location}`);
+            if (respuesta.ok) {
+                const subscribers = await respuesta.json();
+                // Haz algo con la variable "subscribers" aquí
+            }
+        } catch (error) {
+            console.error('Error buscando subscribers', error);
+        }
+    }
+
+
 </script>
 
 <div>
