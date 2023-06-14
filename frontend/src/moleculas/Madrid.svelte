@@ -31,13 +31,15 @@
     }
 
     .contenedor1{
-
+        justify-content: flex-end;
+        position: absolute;
 
 
     }
 
     .contenedor2{
         margin-left: 700px;
+
 
 
 
