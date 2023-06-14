@@ -3,8 +3,12 @@
   <source src="src/assets/video/VideoGetFitEasy.mp4" type="video/mp4">
 </video>
 
-# Get Fit Easy
+<br>
+
 <img src="src/assets/esqueleto/logo_getfiteasy.png">
+
+<br>
+
 Es una **cadena de asesoramiento de salud y bienestar** donde se ofrece un espacio de máquinas y 
 clases en el cual hemos creado una página web para gestionar el seguimiento de nuestros clientes.
 
