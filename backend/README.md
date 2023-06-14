@@ -13,3 +13,6 @@
 - Hemos agregado el método _fun findByAddressContaining(location: String)_
 para que nos devuelva las lista de Barcelona y Madrid previamente creadas
 en el file **data.sql**
+
+IMPORTANTE: RECORDAR CAMBIAR EL PASSWORD EN _APLICATION.PROPERTIES_
+PARA CARGAR LA BASE DE DATOS DE POSTGRES.
