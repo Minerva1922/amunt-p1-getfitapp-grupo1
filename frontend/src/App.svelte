@@ -1,21 +1,27 @@
 <script>
-    import {Router, Link, Route} from 'svelte-routing';
+    import {Link, Route, Router} from 'svelte-routing';
     import QuienesSomos from "./pages/QuienesSomos.svelte";
     import QueHacemos from "./pages/QueHacemos.svelte";
     import Servicios from "./pages/Servicios.svelte";
     import logo from "./assets/esqueleto/logo getfiteasy.png";
     import Registrar from "./pages/Registrar.svelte";
     import Bienvenido from "./sub-components/Bienvenido.svelte";
-    import Madrid from "./moleculas/Madrid.svelte";
-    import Barcelona from "./moleculas/Barcelona.svelte";
+    import SubscriberList from "./moleculas/SubscriberList.svelte";
+    import LoginMadrid from "./pages/LoginMadrid.svelte";
     import {onMount} from "svelte";
 
-    let subscribers = [];
+    let subscribersMadrid = [];
+    let subscribersBarcelona = [];
 
     onMount(() => {
-        fetch ("http://localhost:8080/api/subscribers")
-            .then((respuesta) => respuesta.json())
-            .then((datos) => (subscribers = datos));
+            fetch("http://localhost:8080/api/subscribers/location/Madrid")
+                .then((respuesta) => respuesta.json())
+                .then((datos) => (subscribersMadrid = datos));
+
+
+            fetch("http://localhost:8080/api/subscribers/location/Barcelona")
+                .then((respuesta) => respuesta.json())
+                .then((datos) => (subscribersBarcelona = datos));
         }
     )
 </script>
@@ -52,9 +58,12 @@
         <Route path="/registrar" component={Registrar}/>
         <Route path="/bienvenido" component={Bienvenido}/>
         <Route path="/madrid">
-            <Madrid info = {subscribers}/>
+            <SubscriberList info={subscribersMadrid}/>
         </Route>
-        <Route path="/barcelona" component={Barcelona}/>
+        <Route path="/barcelona">
+            <SubscriberList info={subscribersBarcelona}/>
+        </Route>
+        <Route path="/login-madrid" component={LoginMadrid}/>
         <footer>
             <section class="footer-registrate">
                 <div class="left-section">

@@ -1,8 +1,12 @@
 <script>
+
     export let info;
+
+
 </script>
 
 <section>
+
     {#each info as subscriptor}
         <div class="contenedor">
 
