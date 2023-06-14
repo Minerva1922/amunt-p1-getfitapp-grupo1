@@ -1,12 +1,9 @@
 <script>
     import {navigate} from "svelte-routing";
 
-
     let nombreUsuario = "";
     let password = "";
     let mensajeError ="";
-
-
 
     function handleSubmit(){
         if(nombreUsuario==="Ali Siam" && password==="GetFitEasy2023"){
@@ -15,11 +12,6 @@
             mensajeError="Datos incorrectos"
         }
     }
-
-
-
-
-
 </script>
 
 <div>
