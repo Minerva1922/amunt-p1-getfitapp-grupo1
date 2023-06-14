@@ -18,7 +18,6 @@
                 .then((respuesta) => respuesta.json())
                 .then((datos) => (subscribersMadrid = datos));
 
-
             fetch("http://localhost:8080/api/subscribers/location/Barcelona")
                 .then((respuesta) => respuesta.json())
                 .then((datos) => (subscribersBarcelona = datos));
