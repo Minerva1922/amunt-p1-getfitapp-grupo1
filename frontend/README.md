@@ -1,3 +1,5 @@
+<img src="src/assets/esqueleto/logo_getfiteasy.png">
+
 # Get Fit Easy
 Es una **cadena de asesoramiento de salud y bienestar** donde se ofrece un espacio de máquinas y 
 clases en el cual hemos creado una página web para gestionar el seguimiento de nuestros clientes.
@@ -10,9 +12,9 @@ clases en el cual hemos creado una página web para gestionar el seguimiento de 
 - Pair programming
 
 ## 💡 Funcionalidades
-- Es una página web atractiva que muestra los servicios que ofrecemos,
-- una lista de actividades programdadas, una sección
-- de quiénes somos y registrar con Login.
+- Una página web atractiva que muestra los servicios que ofrecen, 
+una lista de actividades programadas, una sección
+de quiénes somos y registrarse con Login.
 
 ## 🏋  Planificando el trabajo
 Hemos hecho una propuesta de diseño, 
@@ -22,4 +24,6 @@ creamos las historias de usuario y definimos las tareas.
 
 
 
-```
+### 👭 Nuestro equipo
+|[<img src="https://avatars.githubusercontent.com/u/126072279?v=4" width=115><br><sub>Jhoana Vicente</sub>](https://github.com/JhoanaVicente)| [<img src="https://avatars.githubusercontent.com/u/126768083?v=4" width=115><br><sub>Irina Ichim</sub>](https://github.com/IrinaIchim) | [<img src="https://avatars.githubusercontent.com/u/126073882?v=4" width=115><br><sub>Maribel Telleria</sub>](https://github.com/mari19-83) |[<img src="https://avatars.githubusercontent.com/u/126767503?v=4" width=115><br><sub>Minerva Pedret</sub>](https://github.com/account)| 
+|:------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------:|

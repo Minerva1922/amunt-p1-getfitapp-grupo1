@@ -35,7 +35,7 @@
         justify-content: center;
         align-items: center;
         height: 50vh;
-        background-image: url("../assets/esqueleto/logo getfiteasy.png");
+        background-image: url("logo_getfiteasy.png");
         overflow: hidden;
         background-position: center;
         background-size: contain;

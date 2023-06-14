@@ -3,7 +3,7 @@
     import QuienesSomos from "./pages/QuienesSomos.svelte";
     import QueHacemos from "./pages/QueHacemos.svelte";
     import Servicios from "./pages/Servicios.svelte";
-    import logo from "./assets/esqueleto/logo getfiteasy.png";
+    import logo from "./assets/esqueleto/logo_getfiteasy.png";
     import Registrar from "./pages/Registrar.svelte";
     import Bienvenido from "./sub-components/Bienvenido.svelte";
     import SubscriberList from "./moleculas/SubscriberList.svelte";
