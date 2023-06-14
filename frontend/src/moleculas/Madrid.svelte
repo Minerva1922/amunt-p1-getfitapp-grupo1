@@ -4,38 +4,58 @@
 
 <section>
     {#each info as subscriptor}
-        <div>
+        <div class="contenedor">
+
             <div class="contenedor1">
                 <h4>{subscriptor.name} {subscriptor.second}</h4>
             </div>
+
             <div class="contenedor2">
                 <p>{subscriptor.address}</p>
                 <p>{subscriptor.data}</p>
-                <p> {subscriptor.phone}</p>
-                <p> {subscriptor.email}</p>
+                <p>{subscriptor.phone}</p>
+                <p>{subscriptor.email}</p>
+
             </div>
         </div>
+        <hr>
     {/each}
+
+
 </section>
 <hr>
 
 <style>
-    section {
-        background-color: red;
 
-    }
 
-    div {
-        background-color: green;
+    .contenedor {
+
         display: flex;
-        flex-direction: row;
         justify-content: space-between;
         margin: 50px;
+    }
+
+    .contenedor1 {
         position: relative;
+        width: 350px;
+        left: 300px;
+
     }
+
     .contenedor2 {
-        display: block;
-        margin-right: 268px;
+       width: 600px;
     }
+    p {
+        display: flex;
+        color: #254e5f;
+        margin-bottom: 5px;
+    }
+    h4 {
+        text-align: justify;
+        font-size: 20px;
+        color: #254e5f;
+        font-style: italic;
+    }
+
 
 </style>
