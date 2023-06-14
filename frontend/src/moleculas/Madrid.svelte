@@ -5,10 +5,10 @@
 <section>
     {#each info as subscriptor}
         <article>
-            <div>
+            <div class="contenedor1">
                 <h3>{subscriptor.name} {subscriptor.second}</h3>
             </div>
-            <div>
+            <div class="contenedor2">
                 <p>{subscriptor.address}</p>
                 <p>{subscriptor.data}</p>
                 <p> {subscriptor.phone}</p>
@@ -20,6 +20,28 @@
 <hr>
 
 <style>
+    article{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        margin-left: 90px;
+    }
+
+    .contenedor1{
+
+
+
+    }
+
+    .contenedor2{
+        margin-left: 700px;
+
+
+
+    }
     section {
         display: flex;
         justify-content: space-around;
