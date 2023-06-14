@@ -1,33 +1,30 @@
 <script>
-    const subscribers = {
-        "id": 9128476,
-        "name": "Jhoana",
-        "lastName": "Vicente",
-        "address": "Gran Via 123, 1-2 98371",
-        "subscriptionDate": "2023/03/04",
-        "phone": "987654321",
-        "email": "jhoana@example.com"
-    };
+    export let info;
 </script>
 
 <section>
-    <div>
-        <h3>{subscribers.name} {subscribers.lastName}</h3>
-    </div>
-    <div>
-        <p>{subscribers.address}</p>
-        <p>{subscribers.subscriptionDate}</p>
-        <p> {subscribers.phone}</p>
-        <p> {subscribers.email}</p>
-    </div>
+    {#each info as subscriptor}
+        <article>
+            <div>
+                <h3>{subscriptor.name} {subscriptor.second}</h3>
+            </div>
+            <div>
+                <p>{subscriptor.address}</p>
+                <p>{subscriptor.data}</p>
+                <p> {subscriptor.phone}</p>
+                <p> {subscriptor.email}</p>
+            </div>
+        </article>
+    {/each}
 </section>
 <hr>
 
 <style>
-    section{
+    section {
         display: flex;
         justify-content: space-around;
         margin-top: 40px;
+        flex-direction: column;
     }
 
     h3 {

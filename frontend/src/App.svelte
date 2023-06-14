@@ -51,7 +51,9 @@
         <Route path="/servicios" component={Servicios}/>
         <Route path="/registrar" component={Registrar}/>
         <Route path="/bienvenido" component={Bienvenido}/>
-        <Route path="/madrid" component={Madrid}/>
+        <Route path="/madrid">
+            <Madrid info = {subscribers}/>
+        </Route>
         <Route path="/barcelona" component={Barcelona}/>
         <footer>
             <section class="footer-registrate">
