@@ -10,7 +10,7 @@ https://github.com/Minerva1922/amunt-p1-getfitapp-grupo1/assets/126767503/3653ec
 
 <br>
 
-<img src="src/assets/esqueleto/logo_getfiteasy.png">
+<img src="src/frontend/src/assets/esqueleto/logo_getfiteasy.png">
 
 <br>
 

@@ -5,7 +5,7 @@
 
 <br>
 
-<img src="src/assets/esqueleto/logo_getfiteasy.png">
+![logo_getfiteasy.png](src%2Fassets%2Fesqueleto%2Flogo_getfiteasy.png)
 
 <br>
 
