@@ -13,7 +13,7 @@
         }else if(nombreUsuario==="Barcelona" && password==="GetFitEasy2023"){
             navigate("/barcelona")
         }else{
-    mensajeError="Datos Incorrectos"
+            mensajeError="Datos Incorrectos"
         }
 
     }
