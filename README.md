@@ -1,7 +1,8 @@
-<p align="center">
-<video width="660" height="240" controls>
-  <source src="frontend/src/assets/video/VideoGetFitEasy.mp4" type="video/mp4">
-</video>
+
+
+https://github.com/Minerva1922/amunt-p1-getfitapp-grupo1/assets/126767503/eee677fe-658c-428f-b473-699695bd1cc7
+
+
 
 
 <br>  
