@@ -2,6 +2,12 @@
   <source src="src/assets/video/VideoGetFitEasy.mp4" type="video/mp4">
 </video>
 
+
+
+https://github.com/Minerva1922/amunt-p1-getfitapp-grupo1/assets/126767503/3653eca9-2c8a-4b97-9360-e2543cf43729
+
+
+
 <br>
 
 <img src="src/frontend/src/assets/esqueleto/logo_getfiteasy.png">
