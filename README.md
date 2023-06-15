@@ -4,7 +4,7 @@
 
 <br>
 
-<img src="src/assets/esqueleto/logo_getfiteasy.png">
+<img src="src/frontend/src/assets/esqueleto/logo_getfiteasy.png">
 
 <br>
 
