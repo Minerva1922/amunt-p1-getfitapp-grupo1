@@ -9,9 +9,11 @@
         if(nombreUsuario==="Ali Siam" && password==="GetFitEasy2023"){
             navigate("/bienvenido")
         }else if(nombreUsuario==="Madrid" && password==="GetFitEasy2023"){
-            navigate("/api/subscribers/location/madrid")
+            navigate("/madrid")
+        }else if(nombreUsuario==="Barcelona" && password==="GetFitEasy2023"){
+            navigate("/barcelona")
         }else{
-            mensajeError="Datos incorrectos"
+            mensajeError="Datos Incorrectos"
         }
 
     }
