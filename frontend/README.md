@@ -3,9 +3,6 @@
   <source src="src/assets/video/VideoGetFitEasy.mp4" type="video/mp4">
 </video>
 
-<br>
-
-![logo_getfiteasy.png](src%2Fassets%2Fesqueleto%2Flogo_getfiteasy.png)
 
 <br>
 
@@ -25,8 +22,9 @@ una lista de actividades programadas, una sección
 de quiénes somos y registrarse con Login.
 
 ## 🏋  Planificando el trabajo
-Hemos hecho una propuesta de diseño, 
-creamos las historias de usuario y definimos las tareas. 
+Hemos hecho una propuesta de diseño.  
+Creamos las historias de usuario y definimos las tareas.  
+Los cambios y comunicaciones con el cliente han sido satisfactrorias.
 
 
 
