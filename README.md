@@ -4,12 +4,6 @@ https://github.com/Minerva1922/amunt-p1-getfitapp-grupo1/assets/126767503/eee677
 
 
 
-
-<br>  
-<img src="http://localhost:5173/src/assets/esqueleto/logo_getfiteasy.png">
-
-</p>
-
 GET FIT EASY es una **cadena de asesoramiento de salud y bienestar** donde se ofrece un espacio de máquinas y 
 clases en el cual hemos creado una página web para gestionar el seguimiento de nuestros clientes.
 
