@@ -8,9 +8,12 @@
     function handleSubmit(){
         if(nombreUsuario==="Ali Siam" && password==="GetFitEasy2023"){
             navigate("/bienvenido")
+        }else if(nombreUsuario==="Madrid" && password==="GetFitEasy2023"){
+            navigate("/api/subscribers/location/madrid")
         }else{
             mensajeError="Datos incorrectos"
         }
+
     }
 </script>
 
@@ -35,7 +38,7 @@
         justify-content: center;
         align-items: center;
         height: 50vh;
-        background-image: url("../assets/esqueleto/logo getfiteasy.png");
+        background-image: url("../assets/esqueleto/logo_getfiteasy.png");
         overflow: hidden;
         background-position: center;
         background-size: contain;
