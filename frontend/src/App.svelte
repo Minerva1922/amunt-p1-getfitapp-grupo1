@@ -7,7 +7,6 @@
     import Registrar from "./pages/Registrar.svelte";
     import Bienvenido from "./sub-components/Bienvenido.svelte";
     import SubscriberList from "./moleculas/SubscriberList.svelte";
-    import LoginMadrid from "./pages/LoginMadrid.svelte";
     import {onMount} from "svelte";
 
     let subscribersMadrid = [];
@@ -62,7 +61,7 @@
         <Route path="/barcelona">
             <SubscriberList info={subscribersBarcelona}/>
         </Route>
-        <Route path="/login-madrid" component={LoginMadrid}/>
+
         <footer>
             <section class="footer-registrate">
                 <div class="left-section">
