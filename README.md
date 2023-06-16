@@ -1,11 +1,26 @@
 
+# GetFitEasy
 
-https://github.com/Minerva1922/amunt-p1-getfitapp-grupo1/assets/126767503/eee677fe-658c-428f-b473-699695bd1cc7
-
-
-
-GET FIT EASY es una **cadena de asesoramiento de salud y bienestar** donde se ofrece un espacio de máquinas y 
+GetFitEasy es una **cadena de asesoramiento de salud y bienestar** donde se ofrece un espacio de máquinas y 
 clases en el cual hemos creado una página web para gestionar el seguimiento de nuestros clientes.
+
+## Cómo lanzar el proyecto en local
+
+- Desde la carpeta `frontend` hacemos: 
+
+```
+npm install
+npm run dev
+```
+
+Antes de lanzar la api de SpringBoot, necesitamos crear una base de datos en `localhost:5432/postgres`
+
+- Desde la carpeta `backend` hacemos:
+```
+gradlew.bat bootRun
+```
+
+
 
 ## **🔧 Competencias técnicas**
 
