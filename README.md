@@ -1,13 +1,8 @@
-<p align="center">
-<video width="660" height="240" controls>
-  <source src="frontend/src/assets/video/VideoGetFitEasy.mp4" type="video/mp4">
-</video>
 
 
-<br>  
-<img src="http://localhost:5173/src/assets/esqueleto/logo_getfiteasy.png">
+https://github.com/Minerva1922/amunt-p1-getfitapp-grupo1/assets/126767503/eee677fe-658c-428f-b473-699695bd1cc7
 
-</p>
+
 
 GET FIT EASY es una **cadena de asesoramiento de salud y bienestar** donde se ofrece un espacio de máquinas y 
 clases en el cual hemos creado una página web para gestionar el seguimiento de nuestros clientes.
@@ -52,5 +47,5 @@ de quiénes somos, una lista de tips saludables y registrarse con Login
  #### ❗IMPORTANTE: RECORDAR CAMBIAR EL PASSWORD EN _APLICATION.PROPERTIES PARA CARGAR LA BASE DE DATOS DE POSTGRES.❗
 
 ### 👭 Nuestro equipo
-|[<img src="https://avatars.githubusercontent.com/u/126072279?v=4" width=115><br><sub>Jhoana Vicente</sub>](https://github.com/JhoanaVicente)| [<img src="https://avatars.githubusercontent.com/u/126768083?v=4" width=115><br><sub>Irina Ichim</sub>](https://github.com/Irina-Ichim) | [<img src="https://avatars.githubusercontent.com/u/126073882?v=4" width=115><br><sub>Maribel Telleria</sub>](https://github.com/mari19-83) |[<img src="https://avatars.githubusercontent.com/u/126767503?v=4" width=115><br><sub>Minerva Pedret</sub>](https://github.com/account)| 
-|:------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------:|
+|[<img src="https://avatars.githubusercontent.com/u/126072279?v=4" width=115><br><sub>Jhoana Vicente</sub>](https://github.com/JhoanaVicente)| [<img src="https://avatars.githubusercontent.com/u/126028195?v=4" width=115><br><sub>Irina Ichim</sub>](https://github.com/Irina-Ichim) | [<img src="https://avatars.githubusercontent.com/u/126073882?v=4" width=115><br><sub>Maribel Telleria</sub>](https://github.com/mari19-83) |[<img src="https://avatars.githubusercontent.com/u/126767503?v=4" width=115><br><sub>Minerva Pedret</sub>](https://github.com/account)| 
+|:------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------:|
