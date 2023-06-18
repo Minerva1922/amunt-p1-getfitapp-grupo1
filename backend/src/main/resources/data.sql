@@ -1,5 +1,5 @@
 INSERT INTO
-    subscribers(id, name, second, address, data, phone, email)
+    subscribers(id, name, last_name, address, data, phone, email)
 VALUES (1, 'Minerva', 'Pedret', 'Plaza 14 Madrid', 'September', 618144754 , 'minervapv83@gmail.com'),
        (2, 'Jhoana', 'Vicente', 'Plaza Catalana 123 Barcelona', 'Enero', 618144754 , 'jhoanapv83@gmail.com'),
        (3, 'Juan', 'Medina', 'Calle Barcelona 123 Barcelona', 'Enero', 123456789, 'juan@example.com'),

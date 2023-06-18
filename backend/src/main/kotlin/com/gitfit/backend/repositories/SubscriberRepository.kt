@@ -5,7 +5,7 @@ import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
 
 @Repository
-interface SubscriberRepository: JpaRepository<Subscriber, Long> {
-    fun findByAddressContaining(location: String): List<Subscriber>?
+interface SubscriberRepository : JpaRepository<Subscriber, Long> {
+    fun findByAddressContaining(location: String): List<Subscriber>
 
 }
